@@ -1,4 +1,4 @@
-# This script
+# This script :globe_with_meridians:
 <hr>
 was created so you can get rid of those .ru websites with a lot of popups.
 The _blockedDomains_ array is small, so if you know some another .ru websites you can share in the comments.
