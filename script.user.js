@@ -2,11 +2,11 @@
 // @name        .ru destroyer
 // @description This script helps you with browsing the internet
 // @author       546pvp
-// @version      0.1.0
+// @version      0.1.1
 // @license      MIT
 // @match        *://*.ru/*
 // ==/UserScript==
-var blockedDomains = ['ik-ptz.ru', 'proonline.ru', 'fantasticfilms.ru', 'tanterm.ru', 'leonardogift.ru', 'hurawatch.ru']
+var blockedDomains = ['ik-ptz.ru', 'proonline.ru', 'fantasticfilms.ru', 'tanterm.ru', 'leonardogift.ru', 'hurawatch.ru', 'bannortim-qimulta.ru', 'daliachuuaroyalys.ru', 'bannortim.ru', 'uaroyalysdaliachu.ru', 'uaroyalys.ru']
 var hostname = location.host
 console.warn(hostname)
  if(blockedDomains.includes(hostname)) {
