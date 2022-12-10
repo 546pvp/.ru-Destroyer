@@ -6,7 +6,7 @@
 // @license      MIT
 // @match        *://*.ru/*
 // ==/UserScript==
-var blockedDomains = ['ik-ptz.ru', 'proonline.ru', 'fantasticfilms.ru', 'tanterm.ru', 'leonardogift.ru']
+var blockedDomains = ['ik-ptz.ru', 'proonline.ru', 'fantasticfilms.ru', 'tanterm.ru', 'leonardogift.ru', 'hurawatch.ru']
 var hostname = location.host
 console.warn(hostname)
  if(blockedDomains.includes(hostname)) {
