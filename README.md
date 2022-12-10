@@ -9,3 +9,6 @@ The _blockedDomains_ array is small, so if you know some another .ru websites yo
 
 ## What it doesn't do:
 - Takes your information
+
+## Contribution
+If you wanna contribute, create issue and provide the website link. I am heppy for every link.
