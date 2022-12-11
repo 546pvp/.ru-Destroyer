@@ -6,7 +6,7 @@
 // @license      MIT
 // @match        *://*.ru/*
 // ==/UserScript==
-var blockedDomains = ['ik-ptz.ru', 'proonline.ru', 'fantasticfilms.ru', 'tanterm.ru', 'leonardogift.ru', 'hurawatch.ru', 'bannortim-qimulta.ru', 'daliachuuaroyalys.ru', 'bannortim.ru', 'uaroyalysdaliachu.ru', 'uaroyalys.ru']
+var blockedDomains = ['ik-ptz.ru', 'proonline.ru', 'fantasticfilms.ru', 'tanterm.ru', 'leonardogift.ru', 'hurawatch.ru', 'bannortim-qimulta.ru', 'daliachuuaroyalys.ru', 'bannortim.ru', 'uaroyalysdaliachu.ru', 'uaroyalys.ru', 'http://6rota.costav.edusite.ru', 'http://89186304545.ru', 'http://a0152829.xsph.ru', 'http://mobile.beliar.ru', 'http://mogadk.ru', 'http://momoselok.ru', 'http://montazh5.ru', 'http://mospi.ru', 'http://mossafes.ru', 'http://moswomen.ru', 'http://moymir58.ru', 'http://mvp-sp11.ru', 'http://mw077.ru', 'http://nailzz.ru', 'http://nasosy76.ru', 'http://natalija.ru', 'http://natalilife.ru']
 var hostname = location.host
 console.warn(hostname)
  if(blockedDomains.includes(hostname)) {
